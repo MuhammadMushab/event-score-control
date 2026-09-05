@@ -537,7 +537,8 @@ Field	Value
 Username	CyberOlympics2026
 Password	[SeJ%bV,&!idbqpU#+Nn
 
-⚠️ Change this before deploying. This is a default/demo credential shipped with the template. Update the username and password in admin.config.js (or wherever authentication is configured) before making the site public — do not use the default credentials in a production deployment.
+##⚠️Change this before deploying.
+>This is a default/demo credential shipped with the template. Update the username and password in admin.config.js (or wherever authentication is configured) before making the site public — do not use the default credentials in a production deployment.
 ---
 
 ## 🔐 Security
