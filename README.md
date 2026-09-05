@@ -532,6 +532,12 @@ Global Announcement  __________________________
 
 The settings can be stored in browser storage and applied when the public pages are rendered.
 
+🔑 Default Login
+Field	Value
+Username	CyberOlympics2026
+Password	[SeJ%bV,&!idbqpU#+Nn
+
+⚠️ Change this before deploying. This is a default/demo credential shipped with the template. Update the username and password in admin.config.js (or wherever authentication is configured) before making the site public — do not use the default credentials in a production deployment.
 ---
 
 ## 🔐 Security
