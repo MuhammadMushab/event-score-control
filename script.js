@@ -5,20 +5,20 @@ const UPDATES_URL = 'YOUR_PUBLISHED_LEADERBOARD_URL';
 
 // Hardcoded event links: event name → URL or { url, displayText }
 const EVENT_LINKS = {
-    'ares-1: mission recovery': 'ares1.horizon.local',
-    'the bug bang': 'bugbang.horizon.local',
-    'bug-bang': 'bugbang.horizon.local',
+    'ares-1: mission recovery': 'https://example.com',
+    'the bug bang': 'https://example.com',
+    'bug-bang': 'https://example.com',
     'SOC Destroyer Station': {
-        url: 'https://soc-destroyer-dashboard1.onrender.com/',
-        displayText: 'soc-destroyer.horizon.local'
+        url: 'https://example.com/',
+        displayText: 'https://example.com'
     },
-    'Mission: NAS Hijack': 'missionhijack.horizon.local',
+    'Mission: NAS Hijack': 'https://example.com',
     'astro doxx': 'doxx.horizon.local',
-    'gn-11 enigma': 'Enigma.horizon.local',
-    'bankrupt': 'bank.horizon.local',
-    'dots of destiny': 'cosmicsignals.horizon.local',
-    'silent circuits': 'cosmicsignals.horizon.local',
-    'into the void': 'void.horizon.local'
+    'gn-11 enigma': 'https://example.com',
+    'bankrupt': 'https://example.com',
+    'dots of destiny': 'https://example.com',
+    'silent circuits': 'https://example.com',
+    'into the void': 'https://example.com'
 };
 
 const CLEAN_ROUTES = {
