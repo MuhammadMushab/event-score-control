@@ -1,7 +1,7 @@
 // Published Google Sheets data sources.
-const LEADERBOARD_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQK8871Xrx1jWMWF2414BCL7q4f0rot7yOQLWduaAEx2FievybC3_pehrlJRvwCeOjF2EKBaQjrKl5g/pubhtml?gid=0&single=true';
-const EVENTS_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQK8871Xrx1jWMWF2414BCL7q4f0rot7yOQLWduaAEx2FievybC3_pehrlJRvwCeOjF2EKBaQjrKl5g/pubhtml?gid=571751519&single=true';
-const UPDATES_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQK8871Xrx1jWMWF2414BCL7q4f0rot7yOQLWduaAEx2FievybC3_pehrlJRvwCeOjF2EKBaQjrKl5g/pubhtml?gid=774956356&single=true';
+const LEADERBOARD_URL = 'YOUR_PUBLISHED_LEADERBOARD_URL';
+const EVENTS_URL = 'YOUR_PUBLISHED_LEADERBOARD_URL';
+const UPDATES_URL = 'YOUR_PUBLISHED_LEADERBOARD_URL';
 
 // Hardcoded event links: event name → URL or { url, displayText }
 const EVENT_LINKS = {
