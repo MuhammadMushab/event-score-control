@@ -1,0 +1,11 @@
+{
+  "name": "cyber-olympics-portal",
+  "version": "1.0.0",
+  "description": "Cyber Olympics Event Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {}
+}

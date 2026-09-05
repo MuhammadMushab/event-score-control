@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Olympics | Events</title>
+    <meta name="description" content="Schedule and status of events.">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="events-page">
+    <video autoplay muted loop playsinline class="video-background" id="bgVideo">
+        <source src="/assets/video/space.mp4" type="video/mp4">
+    </video>
+
+    <div class="navbar-container">
+        <nav class="navbar">
+            <a href="/" class="nav-brand">CYBER OLYMPICS</a>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li><a href="/events" class="active">Events</a></li>
+                <li><a href="/updates">Updates</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="layout-center events-section">
+        <div class="main-container events-container fade-in">
+            <h1 class="mission-title">Mission Board</h1>
+            <div id="eventsGrid" class="events-grid"></div>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+
+

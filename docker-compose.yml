@@ -1,0 +1,9 @@
+services:
+  event-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: event-app
+    ports:
+      - "25666:25666"
+    restart: unless-stopped

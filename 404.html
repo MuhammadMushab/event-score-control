@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Olympics</title>
+    <script>
+        const routeMap = {
+            '/leaderboard': '/leaderboard/',
+            '/events': '/events/',
+            '/updates': '/updates/',
+            '/mission-control': '/mission-control/'
+        };
+        const target = routeMap[window.location.pathname.replace(/\/$/, '')];
+        if (target) {
+            window.location.replace(target);
+        } else {
+            window.location.replace('/');
+        }
+    </script>
+</head>
+<body></body>
+</html>

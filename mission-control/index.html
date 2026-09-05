@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Olympics | Mission Control</title>
+    <meta name="description" content="Mission Control panel for settings.">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <video autoplay muted loop playsinline class="video-background" id="bgVideo">
+        <source src="/assets/video/space.mp4" type="video/mp4">
+    </video>
+
+    <div class="navbar-container">
+        <nav class="navbar">
+            <a href="/" class="nav-brand">CYBER OLYMPICS</a>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/updates">Updates</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="layout-right">
+        <div class="admin-hero fade-in">
+            <!-- Login Screen -->
+            <div id="loginScreen" class="glass-card hero-card" style="max-width: 400px; display: none;">
+                <div class="admin-badge">Secure Access</div>
+                <h2 style="margin: 1.5rem 0 1rem;">Mission Control Login</h2>
+                <div class="form-group">
+                    <input type="text" id="adminUsername" class="form-control" placeholder="Username" autocomplete="username" style="text-align: center;">
+                </div>
+                <div class="form-group">
+                    <input type="password" id="adminPassword" class="form-control" placeholder="Password" autocomplete="current-password" style="text-align: center;">
+                </div>
+                <button id="loginBtn" class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;">Enter Command Center</button>
+                <p id="loginError" style="color: var(--warning); display: none; font-size: 0.9rem;">Incorrect password.</p>
+            </div>
+
+            <!-- Admin Dashboard -->
+            <div id="adminContent" class="glass-card hero-card" style="max-width: 540px; display: none;">
+                <div class="admin-badge">Command Center</div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                    <h2 style="margin: 0; font-size: 1.8rem;">System Config</h2>
+                    <button id="logoutBtn" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;">Logout</button>
+                </div>
+                
+                <!-- Toggles -->
+                <div class="admin-toggle-row">
+                    <div>
+                        <strong>Leaderboard</strong>
+                        <span>Public ranking visibility</span>
+                    </div>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggleLeaderboard" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="admin-toggle-row">
+                    <div>
+                        <strong>Mission Board</strong>
+                        <span>Events visibility</span>
+                    </div>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggleEvents" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="admin-toggle-row">
+                    <div>
+                        <strong>System Updates</strong>
+                        <span>Global update feed</span>
+                    </div>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggleUpdates" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="form-group" style="margin-top: 1rem;">
+                    <label for="announcementInput" style="text-align: left; display: block; margin-bottom: 0.5rem;"><strong>Global Announcement</strong></label>
+                    <textarea id="announcementInput" class="form-control" rows="3" placeholder="Enter message to broadcast..."></textarea>
+                </div>
+
+                <button id="saveSettings" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Apply Configuration</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/admin.config.js?v=20260905"></script>
+    <script src="/script.js?v=20260905"></script>
+</body>
+</html>

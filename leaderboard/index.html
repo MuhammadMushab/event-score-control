@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Olympics | Leaderboard</title>
+    <meta name="description" content="Current rankings for the Cyber Olympics.">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <video autoplay muted loop playsinline class="video-background" id="bgVideo">
+        <source src="/assets/video/space.mp4" type="video/mp4">
+    </video>
+
+    <div class="navbar-container">
+        <nav class="navbar">
+            <a href="/" class="nav-brand">CYBER OLYMPICS</a>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/leaderboard" class="active">Leaderboard</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/updates">Updates</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="layout-center">
+        <div class="section-shell leaderboard-title-block fade-in">
+            <h1 class="global-title">Global Leaderboard</h1>
+        </div>
+
+        <div class="glass-card section-card fade-in">
+            <div class="section-heading">
+                <h2>Rankings</h2>
+                <span>Live standings</span>
+            </div>
+            <p style="margin-bottom: 2rem;">_</p>
+
+            <table class="leaderboard-table">
+                <colgroup>
+                    <col class="rank-col">
+                    <col>
+                    <col class="score-col">
+                </colgroup>
+                <thead>
+                    <tr id="leaderboardHeadRow">
+                        <th class="rank">Rank</th>
+                        <th>Faction / Team Name</th>
+                        <th class="score">Total Score</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboardBody">
+                    <!-- Populated by script.js -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

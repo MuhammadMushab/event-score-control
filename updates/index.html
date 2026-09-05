@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Olympics | Updates</title>
+    <meta name="description" content="Latest announcements and updates.">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <video autoplay muted loop playsinline class="video-background" id="bgVideo">
+        <source src="/assets/video/space.mp4" type="video/mp4">
+    </video>
+
+    <div class="navbar-container">
+        <nav class="navbar">
+            <a href="/" class="nav-brand">CYBER OLYMPICS</a>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/updates" class="active">Updates</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="updates-page">
+        <div class="updates-wrapper fade-in">
+            <div class="updates-content">
+                <h1 class="updates-title">Updates</h1>
+                <div id="updatesContainer" class="updates-list">
+                    <!-- Populated by script.js -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+
+
