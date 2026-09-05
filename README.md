@@ -145,7 +145,7 @@ Then they can be displayed in this README.
 
 | Control Panel |
 |----------------|
-| ![Control Panel](docs/screenshots/control-panel.png) |
+| ![Control Panel](docs/screenshots/mission-control.png) |
 
 ---
 
