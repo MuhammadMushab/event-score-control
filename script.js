@@ -13,7 +13,7 @@ const EVENT_LINKS = {
         displayText: 'https://example.com'
     },
     'Mission: NAS Hijack': 'https://example.com',
-    'astro doxx': 'doxx.horizon.local',
+    'astro doxx': 'https://example.com',
     'gn-11 enigma': 'https://example.com',
     'bankrupt': 'https://example.com',
     'dots of destiny': 'https://example.com',
